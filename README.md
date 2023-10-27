@@ -28,11 +28,11 @@
 
 ## OUTILS :
 
-	### Reniffleur de réseau :
+	- Reniffleur de réseau :
 		Wireshark
-	### C :
+	- C :
 		L'éxécutable aes est le résultat d'un projet en C qu'on peut trouver à quelques modifications près sur https://github.com/zario3/AES_C
 
-	### Python :
+	- Python :
 		Utilisation des librairies sys, socket et subprocess.
 		Le code python de communication avec TCP est basé sur https://www.geeksforgeeks.org/file-transfer-using-tcp-socket-in-python/?ref=gcse
