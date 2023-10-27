@@ -1,8 +1,10 @@
-#OBJECTIF : 
+# COM
+
+# OBJECTIF : 
 
 	Comparer du point de vue du réseau une communication  avec ou sans chiffrement des données.
 
-#RESUME : 
+# RESUME : 
 
 	Pour faire ce test on va établir une connexion entre deux machines considérées client / serveur.
 	Le client va donc envoyer un fichier texte (hola.txt) au serveur.
@@ -11,7 +13,7 @@
 	Dans les deux cas on va intercepter cette communication et observer l'apparence du fichier dans le résau.
 	On voit clairement la différence !!
 
-#MISE EN OEUVRE :
+# MISE EN OEUVRE :
 
 	1) On ouvre wireshark en mode super utilisateur depui une machine connectée au réseau puis on lance la capture de paquets avec l' interface graphique.
 		sudo wireshark
@@ -24,7 +26,7 @@
 	6) On refait les étapes 2-5 avec les fichiers TCP_client_chiff.py et TCP_server_chiff.py
 
 
-#OUTILS :
+# OUTILS :
 
 	Reniffleur de réseau :
 		Wireshark
