@@ -17,7 +17,7 @@ if __name__ == '__main__':
 		try: 
 		# Reading file and sending data to server 
 			fi = open(filename, "rb") 
-			cmd = "./main " + filename + " c 1 0"
+			cmd = "./aes " + filename + " c 1 0"
 			sp.run(cmd, shell=True)
 
 			data = fi.read() 
@@ -28,7 +28,7 @@ if __name__ == '__main__':
 				data = fi.read() 
 			# File is closed after data is sent 
 			fi.close()
-			cmd = "./main " + filename + " d 1 0"
+			cmd = "./aes " + filename + " d 1 0"
 			sp.run(cmd, shell=True)
 			break 
 
